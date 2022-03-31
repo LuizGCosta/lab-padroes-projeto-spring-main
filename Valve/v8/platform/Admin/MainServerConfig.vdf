@@ -1,0 +1,53 @@
+"MainServerConfig"
+{
+	"hostname"
+	{
+		"name"	"#Dialog_Game_Info_Server_Name"
+		"type"	"string"
+	}
+	"map"
+	{
+		"name" "#Dialog_Game_Info_Map"
+		"type" "customlist"
+	}
+	"sv_lan"
+	{
+		"name" "#Dialog_Game_Info_Network"
+		"type" "enumeration"
+		"list"
+		{
+			"0" "#Dialog_Game_Info_Internet"
+			"1" "#Dialog_Game_Info_LAN"
+		}
+	}
+	"rcon_password"
+	{
+		"name" "#Dialog_Game_Info_RCON_Password"
+		"type" "string"	
+	}
+	"sv_password"
+	{
+		"name" "#Dialog_Game_Info_Player_Password"
+		"type" "string"
+	}
+	"mapcycle"
+	{
+		"name" "#Dialog_Game_Info_Map_Cycle"
+		"type" "custom"
+	}
+//	"MOTD"
+//	{
+//		"name" "MOTD"
+//		"type" "multistring"
+//	}
+//	"sv_log"
+//	{
+//		"name" "Activity Log"
+//		"type" "enumeration"
+//		"list"
+//		{
+//			"0"	"Disabled"
+//			"1"	"Enabled"
+//		}
+//	}
+}
